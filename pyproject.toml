@@ -1,0 +1,9 @@
+[project]
+name = "kat-ai-service"
+version = "0.1.0"
+description = "AI analysis services for the KAT tools in nxportal"
+requires-python = ">=3.11"
+
+[tool.pytest.ini_options]
+pythonpath = ["."]
+testpaths = ["tests"]
